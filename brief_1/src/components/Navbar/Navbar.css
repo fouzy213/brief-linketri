@@ -41,3 +41,15 @@
   padding-left: 10px;
   color: #8b5cf6;
 }
+
+@media (max-width: 760px) {
+  .full_navbar {
+    width: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 10px;
+    height: auto;
+  }
+}

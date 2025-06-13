@@ -15,14 +15,11 @@
   gap: 30px;
 }
 .explore-button {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   margin: 0 auto;
-  /* padding: 2px 50px 0 60px; */
+
   padding: 8px 16px;
   font-size: 0.9rem;
-  /* font-size: 10px; */
+
   color: #fff;
   background-color: #8b5cf6;
   border: none;
@@ -32,11 +29,6 @@
 }
 
 .explore-button_1 {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto; */
-  /* padding: 2px 50px 0 160px; */
   padding: 8px 16px;
   font-size: 0.9rem;
   background-color: #ffffff;
@@ -59,4 +51,9 @@
   align-items: center;
   flex-direction: column;
   min-width: 150vh;
+}
+@media (max-width: 760px) {
+  .full_pp {
+    margin-left: 50%;
+  }
 }

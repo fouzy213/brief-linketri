@@ -1,0 +1,41 @@
+.full_contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 150vh;
+  min-height: 100vh;
+  justify-content: space-around;
+}
+
+.logo {
+  gap: 50px;
+  display: flex;
+}
+
+.img_contact:hover {
+  background-color: #5936aa;
+  border-radius: 50%;
+}
+
+.img_contact {
+  width: 80px;
+}
+
+.title {
+  font-size: xxx-large;
+  text-decoration: underline;
+  text-decoration-color: #8b5cf6;
+  text-underline-position: under;
+}
+
+@media (max-width: 760px) {
+  .full_contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 150vh;
+    min-height: 100vh;
+    justify-content: space-around;
+    margin-left: 55%;
+  }
+}

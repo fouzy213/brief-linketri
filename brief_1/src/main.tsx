@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { RouterProvider,createBrowserRouter} from 'react-router-dom'
 import App from './App.tsx'
 import HomePage from './pages/HomePage.tsx';
+import PageContact from './pages/PageContact.tsx';
 
 
 const router = createBrowserRouter(
@@ -11,7 +12,7 @@ const router = createBrowserRouter(
       element: <App />,
       children: [
         { path: "/", element: <HomePage /> },
-        // { path: "/contact", element: <ContactPage /> },
+        { path: "/contact", element: <PageContact /> },
         // { path: "/about", element: <AboutPage /> },
       ],
     },
